@@ -15,7 +15,7 @@ function ImportPage() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/import",
+        "https://brewsplit.onrender.com/api/import",
         {
           method: "POST",
           body: formData,
